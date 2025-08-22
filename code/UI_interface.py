@@ -1,10 +1,9 @@
-from PyQt5.QtWidgets import QApplication ,QPushButton, QLabel, QVBoxLayout, QWidget, QHBoxLayout ,QWidget, QVBoxLayout,QPushButton,QSpacerItem,QSizePolicy,QColorDialog, QListWidget,QSlider ,QListWidgetItem,QScrollArea,QFileDialog,QStackedWidget,QToolButton,QMenu, QAction,QLineEdit,QDialog
+from PyQt5.QtWidgets import  QPushButton, QLabel, QVBoxLayout, QWidget, QHBoxLayout ,QWidget, QVBoxLayout,QPushButton,QSpacerItem,QSizePolicy, QListWidget,QSlider ,QListWidgetItem,QScrollArea,QFileDialog,QStackedWidget,QToolButton,QMenu, QAction,QLineEdit,QDialog
 from PyQt5.QtCore import Qt, QSize,QTimer ,QDateTime
 from PyQt5.QtGui import QPixmap, QIcon,QMouseEvent
 import os
 from PIL import Image
 from PyQt5.QtMultimedia import QMediaPlayer
-import sys
 from title_layout import Title_Form, Qss1
 import pygame
 import random
@@ -784,10 +783,6 @@ Qss2 = '''
 
 '''
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    main_window = MusicGeneratorApp()
-    main_window.show()
-    # QTimer.singleShot(20000, app.quit) # 设置定时器，5秒后退出应用
-    sys.exit(app.exec_())
+
+    
    
